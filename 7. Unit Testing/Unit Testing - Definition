@@ -1,0 +1,114 @@
+SOFTWARE TESTING
+
+Before a software is released to the market, it undergoes several and rigorous testing. Testing is an essential part of any successful Software.
+
+Software Testing basically is the process of executing the software or sort of application to find out if there's any bug or sort of errors in the design and functionality of the application.  It helps to verify that the logic of a piece of the program is correct.
+
+There are 4 main stages of testing, only after executing these tests the product will be ready for the market:
+
+1) Unit Testing - also called Component Testing, is the most basic type of testing (the microlevel of testing), it involves testing individual modules or pieces of code to ensure that each part or unit is working correctly. A Unit can be a specific piece of functionality, a program, or a particular procedure within the application. Unit Testing helps to verify internal design, logic, and parts, as well as error handling.
+Unit Tests consist in testing a Unit / Component of an application without its external dependencies: files, databases, web services, message queues. They're cheap to write and fast to execute.
+
+2) Integrating Testing - takes place right after the Unit Testing. It consists in combining different modules and test them as a group. It helps to determine how well the units perform together, ensuring that the application runs efficiently without any error. It also identifies interface issues between modules. Integration Testing consists in testing a Unit / Component of an application with its external dependencies: files, databases, web services, message queues. They're cheap to write and fast to execute.
+
+3) System Testing - all the components of the software are tested as a whole in order to ensure that the overall product is working properly as expected. It verifies the technical, functional, and business aspects of the software. System testing includes a combination of Automated and Manual Testing.
+
+4) Acceptance Testing - also called UAT (User Acceptance Testing), it determines whether or not the software is ready to be released. During the UAT level of testing the following questions are answered: Are the functional requirements met? Are the performance requirements met? This testing can also be called End-To-End Test.
+
+							UNIT TESTING
+
+Unit Testing - is a way of testing the smallest piece of code referred to as a Unit, that can be logically isolated in a system. It is mainly focused on the functional correctness of standalone modules.
+
+GOALS OF UNIT TESTING
+
+Its goal is basically to segregate each part of the program, test it individually to check whether they're working correctly or not. It isolates the smallest piece of testable software from the remainder of the code and determines whether it behaves exactly as expected and according to our requirements or not. A small piece of software is usually referred to as a Unit. The unit can be a line of code, a method, a class, a sort of program, or a part of an application program.
+
+BENEFITS OF UNIT TESTING
+
+Overall: Finding Software bugs, facilitating changes, simplifying Integration, providing a source of documentation, etc.
+
+1) It makes the coding process more agile and very simple - it allows proceeding for coding refactor very confidently.
+
+2) Improves the quality of the code - identifies every defect that may come up before the code is sent further for further tests. Writing tests before actually coding, makes us think harder about the problem, it exposes the edge cases and makes us write better code. Code is easier to reuse when we perform Unit testing.
+
+3) Helps to find software bugs early - it minimizes software risks and avoids spending too much money and time.
+
+4) Facilitates changes and simplifies integration (makes integration much better) - it allows coding refactoring, upgrade system libraries that later data, ensuring that the module still is working correctly. It helps to maintain and change the code, it reduces the defects in the new development or the newly developed model of the code and the bugs, when changing the existing functionality as well. It verifies the accuracy of each unit after what the units are integrated into an application via unit testing.
+
+5) Provides documentation to developers - makes the documentation burden a little easier by encouraging better coding practices and also leaving behind the piece of code that describes what the program is actually going to achieve.
+
+6) Makes debugging easier and quicker - helps simplify the debugging process, in case a test fails on the latest changes made in the code need to be deep out.
+
+7) Helps create better Software Design - writes a test first, forces us to think through the design, and what the software must accomplish before we actually write the code.
+
+8) Reduces Testing Costs - since Unit Testing allows us to catch the bugs early, it then reduces the cost of bug fixes. It saves us a lot of money and effort.
+
+
+PROPERTIES OF A GOOD UNIT TESTING
+
+1) Easy to write
+2) Clean, readable, maintainable and reliable
+3) No logic
+4) Faster and Efficient
+5) Isolated / Not too specific and general
+
+
+ ############################### OTHER ###################################################
+
+a) What is unit testing?
+Unit Testing - an essential skill for anyone who wants to become a senior developer. it’s the practice of writing code to test your code and then run those tests in an automated fashion. Unit tests are great for quickly testing the logic (like conditional statements and loops).
+
+
+b) Why learn Unit testing?
+# If you’re building a complex application or working on a legacy app, manually testing all the various functions is tedious and takes a significant amount of time.
+
+# As your application grows, the cost of manual testing grows exponentially. And you’re never 100% sure if you’ve fully tested all the edge cases. 
+
+# The later a bug is caught in the software development lifecycle, the more costly it is to the business.
+
+# Automated tests help you to catch bugs earlier in the software development lifecycle, right when you’re coding. These tests are repeatable, we write them once and run them over and over.
+
+
+c) The benefits of using unit tests are:
+- help you to catch and fix bugs earlier, before releasing your app into production
+- help you to write better code with less bugs
+- help you to produce software with better design - extensible and loosely-coupled
+- give you rapid feedback and tell you if your code *really* works
+- force you to think of edge cases that you didn’t realize existed
+- test your code much faster
+- tell if you have broken any functionality as you write new code
+- allow you to refactor your code with confidence
+- act as documentation about what your code does
+- save you both time and money
+
+d) Test-Driven Development (TTD) also called Test first - is an approach to building software. With TDD you write your tests before writing the application or production code. Our development is driven by our tests
+
+e) How does TDD work?
+# Write a failing test - this test should fail because we don't have any application code that would make it pass.
+
+# Write the simplest code to make the test pass - using the absolute simplest implementation that will make the test pass.
+
+# Refactor your code if necessary.
+
+f) Benefits of TDD
+- Testable Source Code: Your source code will be testable right from the beginning, no changes to your code are required to make it testable.
+
+- Fully Coverage by Tests: every line of production code is fully covered by tests, meaning that we can refactor and deploy with confidence.
+
+- Simpler Implementation: it often results in a simpler implementation.
+
+In theory, TDD is more promising because of the benefits I told you. But in practice, sometimes it can get really complex and it may slow you down. If that's the case it's recommended to switch to the code-first approach and write your tests after.
+
+
+g) WHAT TO TEST 
+- test the outcome of a function
+
+In programming we have 2 types of functions:
+- Query: it returns some value. So we can test if this function is returning the right value.
+
+- Command: performs an action, it often involves changing the state of an object in memory and/or writing to a database, or calling a web service or sending a message to a message queue, and so on. These are all commands that make changes in the system and they may return a value as well.
+
+
+WHAT TO NOT TEST
+- Language features
+- 3rd-party code

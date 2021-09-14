@@ -1,0 +1,7 @@
+SUMMARY 
+
+- Exceptions (checked, runtime, error)
+- Try / catch blocks
+- The throw keyword
+- Custom Exceptions
+- Chaining exceptions 

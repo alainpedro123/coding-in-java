@@ -1,0 +1,1 @@
+// Multiple Inheritance - is when a class has many parents. In Java this feature has not been implemented, because it brings a number of complexities. It's rarely used.

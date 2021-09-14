@@ -1,0 +1,15 @@
+SORTING
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Merge Sort
+- Quick Sort
+- Counting Sort
+- Bucket Sort
+
+SEARCHING 
+- Linear Search - (perfect for small lists)
+- Binary Search - (only works on sorted lists)
+- Ternary Search
+- Jump Search
+- Exponential Search
