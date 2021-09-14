@@ -1,0 +1,162 @@
+1.	Calculate the time the function below takes to perform.
+2.	Create two functions that a takes a parameter n. 
+- The first function print out all the odd numbers up to n.
+- The second function print out all even numbers up to n.
+
+3. 3.	Given an array, log all its pairs.
+4.	Given an array, write a function that checks to see if there's a string "nemo" in this.
+
+5.	Write a function that takes a number and find its factorial: 
+a)	Use RECURSION
+b)	Use a FOR LOOP
+
+
+6.	Write a function that takes a given parameter “an index (a number)” and returns its value of the Fibonacci sequence, where the sequence is: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377… The pattern of the sequence is that each value is the sum of the 2 previous values, that means that for number = 6 → 3+5 = 8. 
+a)	Use RECURSION
+b)	Use a FOR LOOP
+
+Fibonnaci sequence	0	1	1	2	3	5	8	13	21	34	55	89	144	233	377	…
+Index	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	…
+
+
+7. Given 2 arrays, create a function takes two arrays of characters as parameters and  returns either true or false if these two arrays contain any common items
+
+8.	Write a function that takes two parameters: “an array” and “ a number”. The function returns either true if it finds a matching pair which the sum of these two numbers is equal to the number (second parameter), otherwise it returns false.
+
+9.	Create a function that reverses a string.
+Input: "Hi my name is Alain"
+Output: "nialA si eman ym iH".
+
+10.	Given two arrays that are sorted [0,3,4,31] and [4,6,30], write a function that merges these two arrays in big one and sorted array [0,3,4,4,6,30,31].
+
+
+11.	Write a function that takes an array and return:
+a)	The first recurring number
+b)	The first repeated character in the string.
+- Input:  "a green apple".
+- Output: e
+
+
+12.	Write a function that find the first non repeating character in the string. In the other words the character that appear only once.
+- Input:  "a green apple".
+- Output: 
+
+
+15.	Given an array of integers, return indices of the two numbers such that they add up to a specific target. You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+- Input: nums, target
+- Output: [1, 2] (because 2 + 7 = 9)
+
+
+
+17.	A) Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
+Example 1
+Input: 121
+Output: true	
+
+Example 2
+Input: 100
+Output: false
+
+
+B) Determine whether a string is a palindrome. An string is a palindrome when it reads the same backward as forward.
+
+Example 1
+Input: ‘racecar’
+Output: true	Example 2
+Input: ‘alain’
+Output: false
+
+
+
+28.	Find the number of vowels in a string. Vowels in English are A, E, O, U and I.
+
+Input: “hello”
+Output: 2
+
+
+
+29.	Reverse the order of words in a sentence.
+- Input: “Trees are beautiful”
+- Output: “beautiful are Trees”
+
+30.	Check if a string is a rotation of another string.
+
+- Input: “ABCD”, “DABC” (rotate one char to the right)
+- Output: true
+
+- Input: “ABCD”, “ADBC”
+- Output: false	
+
+- Input: “ABCD”, “CDAB” (rotate two chars to the right)
+- Output: true
+
+31.	Remove duplicate characters in a string.
+- Input: “Hellooo!!”
+- Output: “Helo!”
+
+
+32.	Find the most repeated character in a string.
+- Input: “Hellooo!!”
+- Output: ‘o’
+
+33.	Capitalize the first letter of each word in a sentence. Also, remove any extra spaces between words.
+
+- Input: “trees are beautiful”
+- Output: “Trees Are Beautiful”
+
+- Input: “ trees are beautiful ”
+- Output: “Trees Are Beautiful”
+
+
+34.	Detect if two strings are anagram of each other. A string is an
+anagram of another string if it has the exact same characters in any
+order.
+
+- Input: “abcd”, “adbc”
+- Output: true
+
+- Input: “abcd”, “cadb”
+- Output: true
+
+- Input: “abcd”, “abcd”
+- Output: true
+
+- Input: “abcd”, “abce”
+- Output: false
+
+
+35.	Reverse a Queue
+
+
+36.	Given an array, write two functions, one that finds the maximum number and the other one that finds the minimum number.
+
+
+
+
+37.	Design a stack that supports push, pop and retrieving the minimum
+value in constant time. For example, we populate our stack with [5, 2, 10, 1] (from left to right).
+stack.min() // 1
+stack.pop()
+stack.min() // 2
+
+38.	Find the most repeated number in an array of integers. What is the time complexity of this method? (A variation of this exercise is finding the most repeated word in a sentence. The algorithm is the same. Here we use an array of numbers for simplicity.)
+
+Input: [1, 2, 2, 3, 3, 3, 4]
+Output: 3
+
+39.	Given an array of integers, count the number of unique pairs of integers that have differ-ence k.
+
+Input: [1, 7, 5, 9, 2, 12, 3] 	K=2
+Output: 4
+
+We have four pairs with difference 2: (1, 3), (3, 5), (5, 7), (7, 9). Note
+that we only want the number of these pairs, not the pairs themselves.
+
+
+40.	Find the middle of a linked list in one pass. If the list has an even
+number of nodes, there would be two middle nodes. (Note: Assume that you don’t know the size of the list ahead of time.)
+
+
+41.	Check to see if a linked list has a loop. Hint: use two pointers (slow and fast) to traverse the list. Move the slow pointer one step for-ward and the fast pointer two steps forward. If there’s a loop, at some point, the fast pointer will meet the slow pointer and overtake it. Draw this on a paper and see it for yourself. This algo-rithm is called Floyd’s Cycle-finding Algorithm.
+
